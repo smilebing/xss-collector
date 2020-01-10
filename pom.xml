@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>xss-collector</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>1.8</java.version>
@@ -43,6 +44,13 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+
+<!--        war依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
     </dependencies>
 
